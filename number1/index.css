@@ -1,0 +1,163 @@
+body {
+  margin: 0px;
+}
+
+.padding-right-30 {
+  padding-right: 30px;
+}
+
+.padding-15 {
+  padding: 15px;
+}
+
+.margin-right-5 {
+  margin: 0px 20px 0px 0px !important;
+}
+
+.margin-right-0 {
+  margin: 0px !important;
+}
+
+.border-dot {
+  margin-top: 20px;
+  border-top: #cdcdcd dotted 1px;
+}
+
+.border-solid {
+  border-top: #fff solid 1px;
+}
+
+header {
+  height: 100px;
+  background: #343434;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.logo-web {
+  color: #f4f4f4;
+  font-size: 35px;
+  padding: 30px;
+  font-family: arial;
+}
+
+.nav-menu {
+  margin-top: 12px;
+}
+
+.nav-menu span {
+  color: #ffffff !important;
+}
+
+a {
+  font-size: 11px;
+  text-decoration: none !important;
+  font-family: arial !important;
+  color: #ffffff !important;
+}
+
+a:hover {
+  color: #00ccf9 !important;
+}
+
+a:focus {
+  color: #00ccf9 !important;
+}
+
+main {
+  padding: 30px;
+}
+
+.paragraph-1 strong {
+  font-size: 35px;
+  font-family: arial;
+}
+
+strong span {
+  color: #00ccf9;
+}
+
+.paragraph-1 p {
+  margin: 0px;
+  font-size: 30px;
+  font-family: arial;
+  color: #cdcdcd;
+}
+
+.paragraph-2 p {
+  font-size: 18px;
+  font-family: arial;
+}
+
+.sub-paragraph {
+  height: auto;
+  background: #00b2e2;
+}
+
+.sub-paragraph p {
+  margin: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sub-paragraph-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.sub-paragraph-main {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 10px;
+}
+
+.sub-paragraph button {
+  margin-bottom: 20px;
+  font-size: 9px !important;
+}
+
+.paragraph-3 {
+  display: flex;
+}
+
+@media (min-width: 992px) {
+  .logo-web {
+    color: #f4f4f4;
+    font-size: 50px;
+    padding: 30px;
+    font-family: arial;
+  }
+  a {
+    font-size: 15px;
+    text-decoration: none !important;
+    font-family: arial !important;
+    color: #ffffff !important;
+  }
+
+  .sub-paragraph-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .sub-paragraph-main {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 12px;
+  }
+  .sub-paragraph button {
+    margin-bottom: 20px;
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 630px) {
+  .paragraph-3 {
+    display: block;
+  }
+  .margin-right-5 {
+    margin: 0px 0px 20px 0px !important;
+  }
+}
